@@ -1,0 +1,33 @@
+	form{
+	align-content: center;
+	width:500px;
+	padding:25px;
+	margin:auto;
+	border:5px solid #ffffff;
+	border-radius:15px 15px;
+	background: #000000;
+	}
+	
+	input{
+	background:#000000;
+	color:#ffffff;
+	font-size:15px;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:19px;
+	padding-right:19px;
+	margin:6px;
+	border: 3px solid #ffffff;
+	}
+
+	h2{
+	text-align:center;
+	color: #ffffff;
+
+	}
+
+	.sc{
+	background:#000000;
+	color:#ffffff;
+	}
+
