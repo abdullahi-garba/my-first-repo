@@ -1,2 +1,2 @@
-# my-first-repo
+basic scientific calculator 
 in the biginning
