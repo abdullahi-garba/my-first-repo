@@ -1,2 +1,2 @@
 # my-first-repo
-in the biginning
+This is a scientific calculator created with HTML. 
