@@ -1,2 +1,2 @@
 # my-first-repo
-in the biginning
+This repository contains an HTML file with code for a basic scientific calculator 
