@@ -1,2 +1,1 @@
-basic scientific calculator 
-in the biginning
+Basic Scientific Calculator with HTML, CSS and JS.
