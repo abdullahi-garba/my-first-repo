@@ -7,73 +7,8 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script>
-function addChar(input, character) {
-	if(input.value == null || input.value == "0")
-		input.value = character
-	else
-		input.value += character
-}
-
-function cos(form) {
-	form.display.value = Math.cos(form.display.value);
-}
-
-function sin(form) {
-	form.display.value = Math.sin(form.display.value);
-}
-
-function tan(form) {
-	form.display.value = Math.tan(form.display.value);
-}
-
-function sqrt(form) {
-	form.display.value = Math.sqrt(form.display.value);
-}
-
-function log(form) {
-	form.display.value = Math.log(form.display.value);
-}
-
-function exp(form) {
-	form.display.value = Math.exp(form.display.value);
-}
-
-function deleteChar(input) {
-	input.value = input.value.substring(0, input.value.length - 1)
-}
-
-function changeSign(input) {
-	if(input.value.substring(0, 1) == "-")
-		input.value = input.value.substring(1, input.value.length)
-	else
-		input.value = "-" + input.value
-}
-
-function compute(form) {
-	form.display.value = eval(form.display.value)
-}
-
-function square(form) {
-	form.display.value = eval(form.display.value) * eval(form.display.value)
-}
-
-function checkNum(str) {
-	for (var i = 0; i < str.length; i++) {
-		var ch = str.substring(i, i+1)
-		if (ch < "0" || ch > "9") {
-			if (ch != "/" && ch != "*" && ch != "+" && ch != "-" && ch != "."
-				&& ch != "(" && ch!= ")") {
-				alert("invalid entry!")
-				return false
-				}
-			}
-		}
-		return true
-}
-</script>
 </head>
-<body bgcolor="black" onload="alert('hello there... welcome ')">
+<body onload="alert('hello there... welcome ')">
 <br>
 <form name="sci-calc">
 <h2><b>SCIENTIFIC CALCULATOR</b></h2>
@@ -128,4 +63,4 @@ function checkNum(str) {
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-</html>
+<script src="script.js"></script>
