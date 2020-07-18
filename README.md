@@ -1,2 +1,1 @@
-basic scientific calculator 
-in the biginning
+basic scientific calculator
